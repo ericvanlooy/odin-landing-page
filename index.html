@@ -4,67 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <title>Document</title>
+    <title>EVL Counselling</title>
 </head>
 <body>
     <div class="header">
-        <div class="logo">Header Logo</div>
-        <ul class="links">
-            <li><a href="link">Header link one</a></li>
-            <li><a href="link">Header link two</a></li>
-            <li><a href="link">Header link three</a></li>
+        <div class="logo-text">Header logo</div>
+        <ul class="links-text">
+            <li><a href="link">BACP</a></li>
+            <li><a href="link">More resources</a></li>
+            <li><a href="link">About me</a></li>
         </ul>
     </div>
     <div class="hero">
-        <div class="text">
-            <h1>This website is awesome</h1>
-            <p>Some paragraph text</p>
-            <button>Sign up</button>
+        <div class="hero-content">
+            <h1>Youth Counselling Services</h1>
+            <p>Unlock the benefits of counseling for your children and teenagers! Our services provide a confidential space for them to express themselves, fostering emotional strength. Equip them with essential life skills to conquer adolescent challenges. Our expert counselors can identify and tackle mental health concerns, ensuring a brighter future. Invest in their well-being today for a happier, healthier transition into adulthood!</p>
+            <button class="button-text">More information</button>
         </div>
-        <img src="img/heart-7168781_1280.png" alt="hero image">
+        <div class="hero-image"><img src="img/heart-7168781_1280.png" alt="hero image"></div>
     </div> 
 
     <div class="mid-section">
-        <div class="title">Some random information.</div>
+        <div class="title-text">Services</div>
         <div class="container">
             <div class="content">
-                <img src="img/background-5369195_1280.jpg" alt="image 1">
-                <div class="text">this is some subtext under an illustration</div>
+                <a href="https://www.bacp.co.uk/about-therapy/types-of-therapy/" rel="noreferrer noopener" target="_blank"><img src="img/background-5369195_1280.jpg" alt="image 1"></a>
+                <div class="image-text">CBT</div>
             </div>
             <div class="content">
-                <img src="img/counseling-99740_1920.jpg" alt="image 2">
-                <div class="text">this is some subtext under an illustration</div>
+                <a href="https://www.bacp.co.uk/about-therapy/types-of-therapy/" rel="noreferrer noopener" target="_blank"><img src="img/counseling-99740_1920.jpg" alt="image 2"></a>
+                <div class="image-text">Interpersonal therapy</div>
             </div>
             <div class="content">
-                <img src="img/group-2351896_1280.png" alt="image 3">
-                <div class="text">this is some subtext under an illustration</div>
+                <a href="https://www.bacp.co.uk/about-therapy/types-of-therapy/" rel="noreferrer noopener" target="_blank"><img src="img/group-2351896_1280.png" alt="image 3"></a>
+                <div class="image-text">Play therapy</div>
             </div>
             <div class="content">
-                <img src="img/mental-health-6994374_1280.png" alt="image 4">
-                <div class="text">this is some subtext under an illustration</div>
+                <a href="https://www.bacp.co.uk/about-therapy/types-of-therapy/" rel="noreferrer noopener" target="_blank"><img src="img/mental-health-6994374_1280.png" alt="image 4"></a>
+                <div class="image-text">Psychodynamic therapy</div>
             </div>
         </div>
     </div>
     <div class="quote-section">
-    <figure class="quote">
+    <figure class="quote-text">
         <blockquote>
-          Something inspirational
+            Counselling is the compass that helps us navigate the labyrinth of our emotions, guiding us toward the brighter shores of self-discovery and inner peace.
         </blockquote>
         <figcaption>
-          &mdash; Thor, God of Thunder</figcaption>
+          &mdash; OpenAI quote</figcaption>
       </figure>
     </div>
-    <div class="footer">
-      <div class="footer-container">
-        <div class="text">
-            <p>Call to action! It's time!</p>
-            <p>Sign up for our product</p>
+    <div class="cta">
+      <div class="cta-container">
+        <div class="cta-text">
+            <p><strong>Need to talk?</strong></p>
+            <p>Send me your question, or ask to book an appointment</p>
         </div>
-        <div class="button">
-            <button>sign up</button>
-        </div>
+        <!--<button class="button-text">Email</button>-->
+        <form action="mailto:ericvanlooy@hotmail.com" method="GET">
+            <input name="subject" type="text" placeholder="Subject"/>
+            <textarea placeholder="Add your message"name="body"></textarea>
+            <input type="submit" value="Send" />
+        </form>
       </div>
     </div>
-
+    <div class="footer">Copyright &#169;The Odin Project 2021</div>
 </body>
 </html>
