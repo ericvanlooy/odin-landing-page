@@ -7,7 +7,7 @@
     <title>EVL Counselling</title>
 </head>
 <body>
-    <div class="header">
+    <div class="header-section">
         <div class="logo-text">Header logo</div>
         <ul class="links-text">
             <li><a href="link">BACP</a></li>
@@ -15,13 +15,17 @@
             <li><a href="link">About me</a></li>
         </ul>
     </div>
-    <div class="hero">
+    <div class="hero-section">
         <div class="hero-content">
-            <h1>Youth Counselling Services</h1>
-            <p>Unlock the benefits of counseling for your children and teenagers! Our services provide a confidential space for them to express themselves, fostering emotional strength. Equip them with essential life skills to conquer adolescent challenges. Our expert counselors can identify and tackle mental health concerns, ensuring a brighter future. Invest in their well-being today for a happier, healthier transition into adulthood!</p>
+            <div>
+                <h1>Youth Counselling Services</h1>
+                <p>Unlock the benefits of counseling for your children and teenagers! Our services provide a confidential space for them to express themselves, fostering emotional strength. Equip them with essential life skills to conquer adolescent challenges. Our expert counselors can identify and tackle mental health concerns, ensuring a brighter future. Invest in their well-being today for a happier, healthier transition into adulthood!</p>
+            </div>
             <button class="button-text">More information</button>
         </div>
-        <div class="hero-image"><img src="img/heart-7168781_1280.png" alt="hero image"></div>
+        <div class="hero-image">
+            <img id="hero-image" src="img/heart-7168781_1280.png" alt="hero image">
+        </div>
     </div> 
 
     <div class="mid-section">
@@ -54,20 +58,20 @@
           &mdash; OpenAI quote</figcaption>
       </figure>
     </div>
-    <div class="cta">
+    <div class="cta-section">
       <div class="cta-container">
         <div class="cta-text">
             <p><strong>Need to talk?</strong></p>
             <p>Send me your question, or ask to book an appointment</p>
         </div>
-        <!--<button class="button-text">Email</button>-->
-        <form action="mailto:ericvanlooy@hotmail.com" method="GET">
-            <input name="subject" type="text" placeholder="Subject"/>
-            <textarea placeholder="Add your message"name="body"></textarea>
-            <input type="submit" value="Send" />
+        <div class="form"><form action="mailto:myemail@address.com" method="GET">
+            <div class="form-subject"><input name="subject" type="text" placeholder="Subject"/></div>
+            <textarea class="form-body" placeholder="Add your message"name="body"></textarea>
+            <div class="send"><input type="submit" value="Send" /></div>
+        </div>
         </form>
+        </div>
       </div>
-    </div>
-    <div class="footer">Copyright &#169;The Odin Project 2021</div>
+    <div class="footer-section">Copyright &#169;The Odin Project 2021</div>
 </body>
 </html>
