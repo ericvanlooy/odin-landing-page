@@ -185,6 +185,7 @@ figcaption {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 1;
     max-width: 800px;
     background-color: #3882F6;
     border-radius: 8px;
@@ -192,18 +193,17 @@ figcaption {
     padding:20px;
     gap:20px;
 }
-.form {
+
+.cta-text {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-input {
-    width: 350px;
-}
-
-.form-body {
-    resize: none;
-    height: 100px;
-    width: 350px;
+.cta-text p {
+    margin:0;
+    padding: 0;
+    align-self: flex-start;
 }
 
 .footer-section {
